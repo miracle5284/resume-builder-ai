@@ -1,0 +1,11 @@
+**/db/
+multi-agent-crewai-env/
+**/__pycache__/
+.env
+assests/**
+!assets/
+!assets/export
+
+assets/*
+assets/export/*
+tmp.py
