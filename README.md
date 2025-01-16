@@ -43,7 +43,7 @@ project/
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/miracle5284/resume-builder-ai
    cd project
    ```
 2. Install dependencies:
