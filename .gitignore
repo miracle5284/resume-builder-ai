@@ -9,3 +9,4 @@ assests/**
 assets/*
 assets/export/*
 tmp.py
+.idea/
