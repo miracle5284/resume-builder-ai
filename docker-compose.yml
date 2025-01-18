@@ -10,5 +10,3 @@ services:
         condition: on-failure
     ports:
       - "8000:80"
-    secrets:
-      - OPENAI_API_KEY
