@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  web:
+    image: multi_agent_chatbot_image:latest
+    build:
+      context: .
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "8000:80"
+    secrets:
+      - OPENAI_API_KEY

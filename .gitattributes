@@ -1,0 +1,2 @@
+# Force LF for shell scripts in the project
+*sh text eol=if
